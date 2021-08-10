@@ -38,10 +38,7 @@ const assertArraysEqual = function(array1, array2) {
   const results2 = takeUntil(data2, x => x === ',');
   console.log(results2);
   
-  //const data3 = ["I", "will", "test", "this", ",", "I", "will", ",", "test", "that"];
-  //const results3 = takeUntil(data3, x => x === ',');
-  //console.log(results3);
   
   assertArraysEqual(results1, data1.slice(0, 5));
   assertArraysEqual(results2, data2.slice(0, 4));
-  //assertArraysEqual(results3, ["I", "will", "test", "this"]);
+  
