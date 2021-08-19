@@ -1,12 +1,4 @@
-const assertEqual = function(actual, expected) {
-    if(actual === expected){
-        console.log("All matched. Test case passed");
-    } else{
-        console.log("Not matched. Test case not passed");
-    }
-  
-}
-
+const assertEqual = require('./assertEqual');
 const head = function(array){
     return array[0];
 }
