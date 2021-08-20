@@ -1,5 +1,5 @@
-const assertEqual = require('./assertEqual');
-const eqArrays = require("./eqArrays");
+// const assertEqual = require('./assertEqual');
+// const eqArrays = require("./eqArrays");
 
   const middle = function(array) {
     let array_result = []; 
@@ -11,7 +11,4 @@ const eqArrays = require("./eqArrays");
         return array_result = array[(array.length - 1) / 2];
       }
   };
-  console.log(middle([1])) 
-  console.log(middle([1, 2])) 
-  console.log(middle([1, 2, 3, 4]) )
-  console.log(middle([1, 2, 3, 4, 5]))
+  module.exports = middle;
