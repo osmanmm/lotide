@@ -31,3 +31,5 @@ const assertEqual = function(actual, expected) {
 //   assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
   console.log(findKeyByValue(bestTVShowsByGenre, "The Wire"));
   console.log(findKeyByValue(bestTVShowsByGenre, "That '70s Show"));
+
+  module.exports = findKeyByValue;

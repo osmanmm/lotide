@@ -1,3 +1,5 @@
+const tail = require("./tail");
+
 const x = String.fromCodePoint(0x1F44D);
   const y = String.fromCodePoint(0x1F44E);
 const assertArraysEqual = function(array1, array2) {
@@ -42,3 +44,4 @@ const assertArraysEqual = function(array1, array2) {
   assertArraysEqual(results1, data1.slice(0, 5));
   assertArraysEqual(results2, data2.slice(0, 4));
   
+  module.exports = takeUntil;

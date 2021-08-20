@@ -1,3 +1,5 @@
+const assertArraysEqual = require('./map');
+
 const assertEqual = function(actual, expected) {
   const x = String.fromCodePoint(0x1F44D);
   const y = String.fromCodePoint(0x1F44E);
@@ -48,3 +50,4 @@ const ab = { a: "1", b: "2" };
 const ba = { b: "2", a: "1" };
 const abc = { a: "1", b: "2", c: "3" };
 assertObjectsEqual(eqObjects([1, 2, 3], [1, 2, 3]), true); 
+module.exports = assertObjectsEqual;

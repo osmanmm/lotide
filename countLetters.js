@@ -28,3 +28,5 @@ let sentence = "lighthouse in the house";
   assertEqual(result.i, 2);
   assertEqual(result.g, 1);
   assertEqual(result.h, 4);
+
+  module.exports = countLetters;

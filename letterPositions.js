@@ -38,5 +38,6 @@ const assertArraysEqual = function(array1, array2) {
     }
     return results;
   };
+  module.exports = letterPositions;
   console.log(letterPositions('lighthouse labs'))
   assertArraysEqual(letterPositions("hello").e, [1]);
