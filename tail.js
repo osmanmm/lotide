@@ -6,3 +6,5 @@ const result = tail(["Hello", "Lighthouse", "Labs"]);
 
 assertEqual(result, ["Lighthouse", "Labs"]);
 console.log(result);
+
+module.exports = tail;
