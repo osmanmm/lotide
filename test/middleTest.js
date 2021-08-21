@@ -1,4 +1,4 @@
-const assert = require('chai').assert;
+const {assert} = require('chai');
 const middle   = require('../middle');
 describe("#middle", () => {
     it("returns Lighthouse for Hello, Lighthouse, Labs", () => {
