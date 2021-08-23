@@ -1,4 +1,3 @@
-
   const takeUntil = function(array, callback) {
     let results = [];
     for (let i = 0; i < array.length; i++) {
@@ -8,5 +7,4 @@
     }
     return results;
   };
-   
   module.exports = takeUntil;

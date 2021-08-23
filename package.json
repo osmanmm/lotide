@@ -1,8 +1,8 @@
 {
   "name": "@osmanmm/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "lotide project with mocah and chai testing",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/osmanmm/lotide-.git"
   },
-  "author": "",
+  "author": "Mohamed Osman <bhttps://github.com/osmanmm>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/osmanmm/lotide-/issues"

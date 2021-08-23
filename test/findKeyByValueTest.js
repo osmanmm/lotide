@@ -1,6 +1,5 @@
 const { assert } = require("chai");
 const findKeyByValue = require("../findKeyByValue");
-
 describe("#findKeyByValue", () => {
   const bestTVShowsByGenre = {
     sci_fi: "The Expanse",

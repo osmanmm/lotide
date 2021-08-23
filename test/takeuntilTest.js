@@ -1,6 +1,5 @@
 const { assert } = require("chai");
 const takeUntil = require("../takeUntil");
-
 describe("#takeUntil", () => {
   const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
   it("should return [ 1, 2, 5, 7, 2 ] for x => x < 0", () => {

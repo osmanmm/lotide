@@ -7,6 +7,4 @@
     }
     return undefined;
   };
-  
-
-  module.exports = findKey;
+   module.exports = findKey;

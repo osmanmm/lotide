@@ -10,5 +10,4 @@ const eqArrays = function(array1, array2) {
   }
   return true;
 };
-assertEqual(eqArrays(["1", "2", "3"], ["1", "2", 3]), true);
 module.exports = eqArrays;
