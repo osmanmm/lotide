@@ -8,7 +8,7 @@
     } else if (array.length % 2 === 0) {
         return array_result = [array[(array.length / 2) - 1], array[array.length / 2]];
       } else {
-        return array_result = array[(array.length - 1) / 2];
+        return array_result = [array[(array.length - 1) / 2]];
       }
      
   };
